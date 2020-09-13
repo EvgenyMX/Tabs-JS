@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.tabs {
+    border: 1px solid;
+    padding: 10px;
+}
+.tabs__nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.tabs__nav-item {
+    width: 200px;
+    outline: 1px solid;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.tabs__nav-item:hover{
+    background-color: aquamarine;
+}
+.tab__nav-active {
+    background-color: rgb(150, 89, 158);
+}
+
+.tabs__content-item {
+    display: none;
+}
+.tab__content-active {
+    display: block;
+}
